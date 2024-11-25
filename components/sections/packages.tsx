@@ -34,7 +34,7 @@ const Packages = () => {
           ease: "power3.out",
         });
       },
-      once: true,
+      once: false,
     });
   }, []);
   return (
@@ -45,25 +45,27 @@ const Packages = () => {
     >
       <div className="px-4 md:px-32">
         <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl text-center mb-8">
-          Our Packages
+          Packages
         </h2>
         <div className="grid grid-cols-1 md:grid-cols-4 gap-6">
           <Card className="package-card flex flex-col">
             <CardHeader>
               <CardTitle className="text-xl font-bold">
-                Simple Website
+                Starter Website
               </CardTitle>
             </CardHeader>
             <CardContent className="flex-grow">
-              <p className="text-4xl font-bold mb-4">$400</p>
+              <p className="text-4xl font-bold mb-4">$300</p>
               <p className="text-sm text-gray-500 dark:text-gray-400 mb-4">
-                Perfect for small businesses or individuals looking to establish
-                an online presence quickly.
+                Ideal for individuals or small businesses needing a simple yet
+                professional online presence with essential features.
               </p>
               <ul className="space-y-2">
                 <li className="flex items-center">
                   <CheckCircle2 className="mr-2 h-4 w-4 text-primary" />
-                  <span>Single page design</span>
+                  <span>
+                    Multi-page design (Home, About, Services, Contact)
+                  </span>
                 </li>
                 <li className="flex items-center">
                   <CheckCircle2 className="mr-2 h-4 w-4 text-primary" />
@@ -100,7 +102,7 @@ const Packages = () => {
               <ul className="space-y-2">
                 <li className="flex items-center">
                   <CheckCircle2 className="mr-2 h-4 w-4 text-background" />
-                  <span>Multi-section design</span>
+                  <span>Multi-page design with advanced layouts</span>
                 </li>
                 <li className="flex items-center">
                   <CheckCircle2 className="mr-2 h-4 w-4 text-background" />

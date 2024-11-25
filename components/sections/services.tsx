@@ -37,7 +37,7 @@ const Services = () => {
     >
       <div className=" px-4 md:px-32">
         <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl text-center mb-8">
-          Our Services
+          Services
         </h2>
         <div className="grid grid-cols-2 md:grid-cols-4 gap-4 md:gap-3">
           <Card className="bento-card hover:border-blue-200 transition-all border col-span-2 row-span-2">

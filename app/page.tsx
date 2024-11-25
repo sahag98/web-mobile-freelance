@@ -58,7 +58,7 @@ export default function HomePage() {
         <section className="w-full relative min-h-screen flex items-center justify-center py-12 md:py-24 lg:py-32 xl:py-48">
           <DotPattern
             className={cn(
-              "[mask-image:radial-gradient(400px_circle_at_center,white,transparent)]"
+              "[mask-image:radial-gradient(600px_circle_at_center,white,transparent)]"
             )}
           />
           <div className="container z-[5] px-4 md:px-6">
@@ -87,7 +87,9 @@ export default function HomePage() {
               </div>
             </div>
           </div>
-          <span className=" absolute bottom-3">Colossians 3:23</span>
+          <span className="absolute italic text-sm bottom-3">
+            Colossians 3:23
+          </span>
         </section>
         <Services />
         <Portfolio />
